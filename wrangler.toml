@@ -1,0 +1,19 @@
+name = "legal-clause-classifier"
+main = "src/index.ts"
+compatibility_date = "2024-12-01"
+
+[vars]
+CORS_ORIGINS = "*"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "legal-clauses-db"
+database_id = "placeholder-replace-after-creation"
+
+[[kv_namespaces]]
+binding = "RATE_LIMIT"
+id = "placeholder-replace-after-creation"
+
+[[r2_buckets]]
+binding = "STORAGE"
+bucket_name = "legal-clause-storage"
